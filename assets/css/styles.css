@@ -7,8 +7,8 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --hue: 151;
-  --first-color: hsl(var(--hue), 80%, 43%);
+  --hue: 146;
+  --first-color: hsl(var(--hue), 89%, 39%);
   --first-color-alt: hsl(var(--hue), 24%, 28%);
   --first-color-light: hsl(var(--hue), 24%, 66%);
   --first-color-lighten: hsl(var(--hue), 24%, 92%);
@@ -309,8 +309,9 @@ the website, in dark theme
 }
 
 .home__img{
-  width: 200px;
+  width: 70px;
   justify-self: center;
+  border-radius: 50%;
 }
 
 .home__title{
@@ -858,7 +859,8 @@ the website, in dark theme
   }
 
   .home__img{
-    width: 180px;
+    width: 80px;
+    border-radius: 50%;
   }
   .home__title{
     font-size: var(--h1-font-size);
@@ -933,8 +935,10 @@ the website, in dark theme
     align-items: center;
   }
   .home__img{
-    width: 280px;
+    width: 180px;
     order: 1;
+    border-radius: 50%;
+
   }
   .home__social{
     top: 30%;
@@ -971,7 +975,8 @@ the website, in dark theme
     padding: 13rem 0 5rem;
   }
   .home__img{
-    width: 350px;
+    width: 250px;
+    border-radius: 50%;
   }
   .home__description{
     padding-right: 7rem;
